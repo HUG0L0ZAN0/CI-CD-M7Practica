@@ -1,6 +1,6 @@
 // src/components/Reloj.jsx
 import { useState, useEffect } from 'react';
-import './Reloj.css'; // Importa los estilos específicos del reloj
+import './reloj.css'; // Importa los estilos específicos del reloj
 
 const Reloj = () => {
   const [hora, setHora] = useState(new Date());
