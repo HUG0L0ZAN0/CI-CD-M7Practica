@@ -1,0 +1,38 @@
+/* Header.css */
+.header {
+    position: fixed; /* Fija el encabezado en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    background-color: #ddd1bc; /* Color de fondo */
+    padding: 10px 0;
+    z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center; /* Centra los elementos de navegación */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    color: #222e43;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #9bc4e2
+  }
+  

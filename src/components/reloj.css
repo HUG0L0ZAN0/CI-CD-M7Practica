@@ -1,0 +1,32 @@
+/* src/components/Reloj.css */
+.reloj-contenedor {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #ddd1bc;
+  }
+  
+  .reloj {
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    margin-bottom: 20px; /* Espacio entre el reloj y el botón */
+  }
+  
+  .boton-actualizar {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-actualizar:hover {
+    background-color: #555;
+  }
